@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ExternalLink, MessageCircle, Eye, X } from 'lucide-react';
 import { projects } from '../data/projects';
-import { socialLinks } from '../data/socialLinks';
+import { socialLinks, getWhatsAppUrl } from '../data/socialLinks';
 
 const Projects = () => {
   const [filter, setFilter] = useState('All');
@@ -14,7 +14,7 @@ const Projects = () => {
     : projects.filter(p => p.category === filter);
 
   const getWhatsAppMessage = (projectName) => {
-    return encodeURIComponent(`Hello SmartOrbit Freelancers, I am interested in discussing a project similar to "${projectName}".`);
+    return `Hello SmartOrbit Freelancers, I am interested in discussing a project similar to "${projectName}".`;
   };
 
   // Check if a project is a poster/image-only project (no external link)
@@ -94,7 +94,7 @@ const Projects = () => {
                     </a>
                   )}
                   <a
-                    href={`${socialLinks.whatsapp}?text=${getWhatsAppMessage(project.title)}`}
+                    href={getWhatsAppUrl(getWhatsAppMessage(project.title))}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary btn-sm"

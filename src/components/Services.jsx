@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Palette, Monitor, Video, Database, ArrowRight, X } from 'lucide-react';
 import { services } from '../data/services';
-import { socialLinks } from '../data/socialLinks';
+import { socialLinks, getWhatsAppUrl, DEFAULT_WHATSAPP_MESSAGE } from '../data/socialLinks';
 
 const iconMap = {
   Palette: <Palette size={32} />,
@@ -13,9 +13,6 @@ const iconMap = {
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
 
-  const getWhatsAppMessage = (serviceName) => {
-    return encodeURIComponent(`Hello SmartOrbit Freelancers, I am interested in your ${serviceName} services. I would like to discuss my project.`);
-  };
 
   return (
     <section id="services" className="services-section">
@@ -47,7 +44,7 @@ const Services = () => {
                   View Details
                 </button>
                 <a 
-                  href={`${socialLinks.whatsapp}?text=${getWhatsAppMessage(service.title)}`}
+                  href={getWhatsAppUrl(DEFAULT_WHATSAPP_MESSAGE)}
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-primary w-full"
@@ -96,7 +93,7 @@ const Services = () => {
             
             <div className="modal-footer">
               <a 
-                href={`${socialLinks.whatsapp}?text=${getWhatsAppMessage(selectedService.title)}`}
+                href={getWhatsAppUrl(DEFAULT_WHATSAPP_MESSAGE)}
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-primary w-full"
