@@ -37,6 +37,15 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Cricket Channel Profile Logo & Crest",
+    category: "Brand Design",
+    image: "/assets/projects/cricket-page-logo.jpg",
+    description: "A prestigious royal crest-style brand logo designed for an Instagram cricket channel — featuring vintage crossed bats, a detailed leather cricket ball, a golden laurel wreath, and a regal lion emblem.",
+    technologies: ["Graphic Design", "Brand Identity", "Photoshop"],
+    projectUrl: "#"
+  },
+  {
+    id: 6,
     title: "E-commerce Platform",
     category: "Web Design",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -45,7 +54,7 @@ export const projects = [
     projectUrl: "#"
   },
   {
-    id: 6,
+    id: 7,
     title: "Professional Brand Identity",
     category: "Brand Design",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -54,7 +63,7 @@ export const projects = [
     projectUrl: "#"
   },
   {
-    id: 7,
+    id: 8,
     title: "Social Media Campaign Creatives",
     category: "Brand Design",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
