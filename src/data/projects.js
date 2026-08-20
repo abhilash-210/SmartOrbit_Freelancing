@@ -52,23 +52,5 @@ export const projects = [
     description: "A high-performance e-commerce website with optimized product pages, seamless checkout flows, and a mobile-first design approach for modern online shopping.",
     technologies: ["Next.js", "Stripe", "Tailwind CSS"],
     projectUrl: "#"
-  },
-  {
-    id: 7,
-    title: "Professional Brand Identity",
-    category: "Brand Design",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "A complete brand identity overhaul including a modern logo, typography guidelines, and business stationary for a tech startup looking to establish market presence.",
-    technologies: ["Figma", "Adobe Illustrator"],
-    projectUrl: "#"
-  },
-  {
-    id: 8,
-    title: "Social Media Campaign Creatives",
-    category: "Brand Design",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "A series of engaging, high-conversion social media posters and creatives designed for an upcoming product launch campaign across multiple platforms.",
-    technologies: ["Photoshop", "Canva Pro"],
-    projectUrl: "#"
   }
 ];
