@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Restaurant Ordering Platform",
     category: "Web Design",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/assets/projects/restaurant-platform.png",
     description: "A fully functional restaurant ordering platform built with a modern UI, featuring an interactive menu, real-time order management, and a seamless checkout experience for customers.",
     technologies: ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
     projectUrl: "https://abhilash-210.github.io/RESTAURANT-ODERING-PLATFORM/"
@@ -12,7 +12,7 @@ export const projects = [
     id: 2,
     title: "SmartOrbit Business Portfolio",
     category: "Web Design",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/assets/projects/smartorbit-portfolio.png",
     description: "A premium, modern business portfolio website for SmartOrbit Freelancers — featuring glassmorphism design, smooth animations, responsive layout, and integrated WhatsApp CTAs.",
     technologies: ["React", "Vite", "CSS3", "Lucide Icons"],
     projectUrl: "#home"
