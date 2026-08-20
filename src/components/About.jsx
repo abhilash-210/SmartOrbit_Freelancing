@@ -36,14 +36,10 @@ const About = () => {
 
           <div className="about-visual glass-card">
             <div className="about-visual-inner">
-              <img src={logoImage} alt="SmartOrbit" style={{
-                height: '140px',
-                width: 'auto',
-                objectFit: 'contain',
-                margin: '0 auto 24px',
-                filter: 'drop-shadow(0 0 24px rgba(0, 180, 216, 0.4))'
-              }} />
-              <h3 className="gradient-text" style={{ fontSize: '1.6rem' }}>Creative Digital Solutions<br/>for Modern Businesses</h3>
+              <div className="about-logo-wrapper">
+                <img src={logoImage} alt="SmartOrbit" className="about-logo-img" />
+              </div>
+              <h3 className="gradient-text about-visual-title">Creative Digital Solutions<br/>for Modern Businesses</h3>
             </div>
           </div>
         </div>
