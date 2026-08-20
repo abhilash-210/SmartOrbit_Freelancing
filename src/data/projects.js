@@ -10,10 +10,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "SmartOrbitAI Business Portfolio",
+    title: "SmartOrbit Business Portfolio",
     category: "Web Design",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "A premium, modern business portfolio website for SmartOrbitAI Freelancers — featuring glassmorphism design, smooth animations, responsive layout, and integrated WhatsApp CTAs.",
+    description: "A premium, modern business portfolio website for SmartOrbit Freelancers — featuring glassmorphism design, smooth animations, responsive layout, and integrated WhatsApp CTAs.",
     technologies: ["React", "Vite", "CSS3", "Lucide Icons"],
     projectUrl: "#home"
   },

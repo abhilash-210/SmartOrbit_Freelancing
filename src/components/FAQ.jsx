@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqs = [
   {
     q: "Do you work with international clients?",
-    a: "Yes. SmartOrbitAI Freelancers can work with clients from India and other countries."
+    a: "Yes. SmartOrbit Freelancers can work with clients from India and other countries."
   },
   {
     q: "Can I request a custom package?",

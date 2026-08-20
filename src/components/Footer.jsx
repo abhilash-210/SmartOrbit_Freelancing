@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-grid">
 
           <div className="footer-brand">
-            <img src={logoImage} alt="SmartOrbitAI" className="footer-logo" />
+            <img src={logoImage} alt="SmartOrbit" className="footer-logo" />
             <p className="footer-tagline">Creative Digital Solutions for Modern Businesses. Affordable, professional, and built to grow.</p>
 
             <div className="footer-socials">
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} SmartOrbitAI Freelancers. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SmartOrbit Freelancers. All rights reserved.</p>
         </div>
       </div>
     </footer>

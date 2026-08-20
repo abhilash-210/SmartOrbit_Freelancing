@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    document.title = "SmartOrbitAI Freelancers | Web Design, Brand Design & Digital Services";
+    document.title = "SmartOrbit Freelancers | Web Design, Brand Design & Digital Services";
     
     // Add meta description for SEO
     let metaDescription = document.querySelector("meta[name='description']");
@@ -22,7 +22,7 @@ function App() {
       metaDescription.name = "description";
       document.head.appendChild(metaDescription);
     }
-    metaDescription.content = "SmartOrbitAI Freelancers provides affordable brand design, responsive websites, content creation and digital support services for businesses and individuals.";
+    metaDescription.content = "SmartOrbit Freelancers provides affordable brand design, responsive websites, content creation and digital support services for businesses and individuals.";
   }, []);
 
   return (

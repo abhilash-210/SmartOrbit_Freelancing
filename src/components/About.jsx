@@ -9,9 +9,9 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-content animate-fade-in">
-            <h2 className="section-title" style={{ textAlign: 'left' }}>About SmartOrbitAI Freelancers</h2>
+            <h2 className="section-title" style={{ textAlign: 'left' }}>About SmartOrbit Freelancers</h2>
             <p className="about-text">
-              SmartOrbitAI Freelancers is a digital services initiative focused on helping businesses, startups and individuals build a strong online presence through affordable creative and technology solutions. We combine design thinking with technical expertise to deliver results that matter.
+              SmartOrbit Freelancers is a digital services initiative focused on helping businesses, startups and individuals build a strong online presence through affordable creative and technology solutions. We combine design thinking with technical expertise to deliver results that matter.
             </p>
 
             <div className="about-features">
@@ -36,7 +36,7 @@ const About = () => {
 
           <div className="about-visual glass-card">
             <div className="about-visual-inner">
-              <img src={logoImage} alt="SmartOrbitAI" style={{
+              <img src={logoImage} alt="SmartOrbit" style={{
                 height: '140px',
                 width: 'auto',
                 objectFit: 'contain',

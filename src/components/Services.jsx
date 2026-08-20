@@ -14,7 +14,7 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   const getWhatsAppMessage = (serviceName) => {
-    return encodeURIComponent(`Hello SmartOrbitAI Freelancers, I am interested in your ${serviceName} services. I would like to discuss my project.`);
+    return encodeURIComponent(`Hello SmartOrbit Freelancers, I am interested in your ${serviceName} services. I would like to discuss my project.`);
   };
 
   return (

@@ -14,7 +14,7 @@ const Projects = () => {
     : projects.filter(p => p.category === filter);
 
   const getWhatsAppMessage = (projectName) => {
-    return encodeURIComponent(`Hello SmartOrbitAI Freelancers, I am interested in discussing a project similar to "${projectName}".`);
+    return encodeURIComponent(`Hello SmartOrbit Freelancers, I am interested in discussing a project similar to "${projectName}".`);
   };
 
   // Check if a project is a poster/image-only project (no external link)
