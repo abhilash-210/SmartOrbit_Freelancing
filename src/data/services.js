@@ -32,7 +32,7 @@ export const services = [
   {
     id: "content-creation",
     icon: "Video",
-    title: "Content Creation & Editing",
+    title: "Content Creation",
     subtitle: "Engaging video and promotional content.",
     description: "Engaging promotional and social media videos designed to help businesses attract and engage their audience.",
     startingPrice: "₹500",
@@ -47,9 +47,9 @@ export const services = [
   {
     id: "data-entry",
     icon: "Database",
-    title: "Data Entry & Customer Support",
-    subtitle: "Accurate data management & customer support services.",
-    description: "Accurate and organized data management and customer support services for businesses, startups and individuals.",
+    title: "Data Entry & Digital Support",
+    subtitle: "Accurate data management services.",
+    description: "Accurate and organized data management services for businesses, startups and individuals.",
     startingPrice: "₹300",
     features: [
       "Data Entry",
@@ -57,7 +57,6 @@ export const services = [
       "PDF to Excel/Word",
       "Data Collection",
       "Web Research",
-      "Customer Support",
       "Copy-Paste Tasks",
       "Data Cleaning",
       "Document Formatting"
